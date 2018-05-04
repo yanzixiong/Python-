@@ -1,7 +1,5 @@
 class SweetPotato():
-
 	
-
 	def __init__(self):
 
 		self.cooklevel = 0#烤的等级
@@ -10,13 +8,9 @@ class SweetPotato():
 
 		self.condliments = [] #作料
 
-
-
 	def __str__(self):
 
 		return self.cookstr+str(self.condliments)
-
-	
 
 	def cook(self,time):
 
@@ -38,8 +32,6 @@ class SweetPotato():
 
 		self.condliments.append(item)
 
-
-
 sp = SweetPotato()
 
 sp.cook(1)
@@ -47,8 +39,6 @@ sp.cook(1)
 sp.addcondliment("盐")
 
 print(sp)
-
-	
 
 sp.cook(1)
 
