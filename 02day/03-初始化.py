@@ -23,12 +23,13 @@ yzx = boy(20,175)
 yzx.study()
 yzx.drive('奔驰')
 yzx.showage(10)
-yzx.addgames()
+yzx.addgames('')
 yzx.playgame()
-
+'''
 huangjie = boy(19,165)
 huangjie.study()
 huangjie.drive('玛莎拉蒂')
 huangjie.showage(19)
-huangjie.addgames()
+huangjie.addgames('cs')
 huangjie.playgame()
+'''

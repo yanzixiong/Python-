@@ -8,7 +8,7 @@ class B():
 	def testB(self):
 		print('-----Big----')
 	def test(self):
-		print('哈哈')
+		print('嘿嘿')
 
 class C(A,B):
 	pass

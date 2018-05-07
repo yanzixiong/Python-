@@ -13,7 +13,6 @@ class Son(Father,Mother):
 		print('喜欢玩手机')
 	def cook(self):
 		print('喜欢做家务')
-
 xiaoli = Son()
 xiaoli.play()
 xiaoli.cook()
