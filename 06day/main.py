@@ -1,4 +1,10 @@
+'''
 from utils import * 
 test()
-oushu()
+'''
+
+from utils import *
+
 jishu()
+oushu()
+test()
