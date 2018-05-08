@@ -1,0 +1,2 @@
+def vale():
+	print('gegegegege')
