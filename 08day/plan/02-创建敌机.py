@@ -12,9 +12,8 @@ screen.blit(bg,(0,0))
 hero = pygame.image.load('./飞机大战/hero.gif')
 screen.blit(hero,(180,500))
 
-
 hero_rect = pygame.Rect(180,500,200,200)
-
+#绘制敌机
 enemy = GameSprite('./飞机大战/enemy1.png')
 enemy1 = GameSprite('./飞机大战/enemy1.png',3)
 enemy1.rect.x = 100
