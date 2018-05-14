@@ -52,16 +52,16 @@ class PlanGame(object):
 		
 		keys_pressed = pygame.key.get_pressed()
 		if keys_pressed[pygame.K_RIGHT]:
-			self.hero.speed = 2
+			self.hero.speed = 5
 			self.hero.speed1 = 0
 		elif keys_pressed[pygame.K_LEFT]:
-			self.hero.speed = -2
+			self.hero.speed = -5
 			self.hero.speed1 = 0
 		elif keys_pressed[pygame.K_UP]:
-			self.hero.speed = -2
+			self.hero.speed = -5
 			self.hero.speed1 = 0
 		elif keys_pressed[pygame.K_DOWN]:
-			self.hero.speed = 2
+			self.hero.speed = 5
 			self.hero.speed1 = 0
 		else:
 			self.hero.speed1 = 0
